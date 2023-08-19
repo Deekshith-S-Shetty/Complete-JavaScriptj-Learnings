@@ -27,3 +27,28 @@ let d = ++b; // First increments the value of "b" by 1 and then stores the value
 // -- -> Decrement
 let e = a--; // Stores the value of "a" in "e" and the decrements the value by 1
 let f = --a; // First decrements the value of "a" by 1 and then stores its value in "f"
+
+// -------------------------------------------------------------------------------------------
+
+// ASSIGNMENT OPERATORS
+
+// = -> x=y
+a = b; // Stores the value of "a" in "b"
+
+// += -> x+y;
+a += b; // Same as "a=a+b"
+
+// -= -> x-y;
+a -= b; // Same as "a=a-b"
+
+// *= -> x*y;
+a *= b; // Same as "a=a*b"
+
+// /= -> x/y;
+a /= b; // Same as "a=a/b"
+
+// %= -> x%y;
+a %= b; // Same as "a=a%b"
+
+// **= -> x**y;
+a **= b; // same as "a=a**b"
