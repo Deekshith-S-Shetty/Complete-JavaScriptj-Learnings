@@ -83,3 +83,16 @@ console.log(a < b); // Prints false, since "a" is not smaller than "b"
 // Ternary operator returns the first value before ":" if the condition is true and last value if the condition is false.
 console.log(a !== b ? "Correct" : "Wrong"); // Prints "Correct"
 console.log(a === b ? "Correct" : "Wrong"); // Prints "Wrong"
+
+// -------------------------------------------------------------------------------------------
+
+// LOGICAL OPERATORS
+
+// && -> Logical and
+console.log(a == b && b > a); // Both the conditions must be true (here it returns false).
+
+// || -> Logical or
+console.log(a > b || a == b); // Any one conditions must be true (here it returns true);
+
+// ! -> Logical not
+console.log(!true); // Reverses the true to false and vise-versa (here it returns false);
