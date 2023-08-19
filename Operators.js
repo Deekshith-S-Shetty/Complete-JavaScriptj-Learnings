@@ -2,6 +2,7 @@ let a = 5,
   b = 22;
 
 // ARITHMETIC OPERATORS
+
 // + -> Addition
 console.log(a + b);
 
@@ -51,4 +52,34 @@ a /= b; // Same as "a=a/b"
 a %= b; // Same as "a=a%b"
 
 // **= -> x**y;
-a **= b; // same as "a=a**b"
+a **= b; // Same as "a=a**b"
+
+// -------------------------------------------------------------------------------------------
+
+// COMPARISON OPERATORS
+
+a = 5;
+b = "5";
+
+// == -> Equal to (returns true or false)
+console.log(a == b); // Prints true. Since "a" value is equal to "b"
+
+// != -> Not equal to (returns true or false)
+console.log(a != b); // Prints false. Since "a" value is equal to "b";
+
+// === -> Equal value and type
+console.log(a === b); // Prints false. Because typeOf "a"(int) is not equal to typeOf "b"(string)
+
+// !== -> Not equal value or not equal type
+console.log(a !== b); // Prints true, since typeOf "a"(int) is not equal to typeOf "b"(string)
+
+// > -> Greater than
+console.log(a > b); // Prints false, since "a" is not greater than "b"
+
+// < -> Less than
+console.log(a < b); // Prints false, since "a" is not smaller than "b"
+
+// ? -> Ternary operator
+// Ternary operator returns the first value before ":" if the condition is true and last value if the condition is false.
+console.log(a !== b ? "Correct" : "Wrong"); // Prints "Correct"
+console.log(a === b ? "Correct" : "Wrong"); // Prints "Wrong"
