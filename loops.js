@@ -14,3 +14,28 @@ First Iteration: i = 0, check i < 100, and execute the code(print i), increment 
 Second Iteration: i = 1, check i < 100, and execute the code(print i), i = 2;
 ...till i = 99;
 Last Iteration: i = 100, check i < 100 which is false, do not execute the loop, terminate. */
+
+// -------------------------------------------------------------------------------------------
+
+// 2. for in loop -> loops through the keys of an object.
+
+let obj = {
+  student1: 90,
+  student2: 68,
+  student3: 45,
+  student4: 99,
+  student5: 94,
+};
+
+// For objects for-in loop gets all keys.
+for (let a in obj) {
+  console.log(a); // Prints only keys (student1, student2,... student5)
+  console.log(obj[a]); // Prints only values (90, 68,... 94)
+}
+
+// For arrays for in loop gets the indexes.
+let arr = [4, 5, 6, 8];
+for (let a in arr) {
+  console.log(a); // Prints index of all the elements of array (0, 1, 2, 3)
+  console.log(arr[a]); // Prints values of all the array
+}
