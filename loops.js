@@ -1,5 +1,8 @@
-// Loops are used to perform repeated actions.
-// Example: if you are assigned to print a number from 1 to 100, you don't have to console.log() 100 times but can use loops to perform it in just few lines.
+/* Loops are used to perform repeated actions.
+Example: if you are assigned to print a number from 1 to 100, you don't have to console.log()
+100 times but can use loops to perform it in just few lines. */
+
+// -------------------------------------------------------------------------------------------
 
 // TYPES OF LOOPS
 // 1. for loop -> loop a block of code no. of times.\
@@ -40,10 +43,14 @@ for (let a in arr) {
   console.log(arr[a]); // Prints values of all the array
 }
 
+// -------------------------------------------------------------------------------------------
+
 // 3. for of loop -> loops through the iterables (arrays, strings, etc) (since objects are not iterable "for-of" does not work on objects).
 for (let a of arr) {
   console.log(a); // Prints elements of array (4, 5, 6, 8).
 }
+
+// -------------------------------------------------------------------------------------------
 
 // 4. while loop -> loops a block of code on a specific condition.
 let a = 1;
@@ -53,6 +60,8 @@ while (a > 0) {
   a--;
 }
 // Note: If the condition never becomes false, the loop will never end and might crash the runtime.
+
+// -------------------------------------------------------------------------------------------
 
 // 5. do-while loop -> while loop variant which runs atleast once.
 a = 0;
