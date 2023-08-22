@@ -53,3 +53,13 @@ while (a > 0) {
   a--;
 }
 // Note: If the condition never becomes false, the loop will never end and might crash the runtime.
+
+// 5. do-while loop -> while loop variant which runs atleast once.
+a = 0;
+do {
+  // This block is executed atleast once (even if condition is false).
+  console.log(a);
+} while (a > 0);
+
+/* do-while loop executes the block atleast once and then checks for the condition, if the 
+condition is false the loop breaks else it continues to next iteration */
