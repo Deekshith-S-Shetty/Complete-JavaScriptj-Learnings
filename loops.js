@@ -39,3 +39,8 @@ for (let a in arr) {
   console.log(a); // Prints index of all the elements of array (0, 1, 2, 3)
   console.log(arr[a]); // Prints values of all the array
 }
+
+// 3. for of loop -> loops through the iterables (arrays, strings, etc) (since objects are not iterable "for-of" does not work on objects).
+for (let a of arr) {
+  console.log(a); // Prints elements of array (4, 5, 6, 8).
+}
