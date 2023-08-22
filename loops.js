@@ -44,3 +44,12 @@ for (let a in arr) {
 for (let a of arr) {
   console.log(a); // Prints elements of array (4, 5, 6, 8).
 }
+
+// 4. while loop -> loops a block of code on a specific condition.
+let a = 1;
+while (a > 0) {
+  // The loop will run until a is greater than 0.
+  console.log("a is greater than 0");
+  a--;
+}
+// Note: If the condition never becomes false, the loop will never end and might crash the runtime.
