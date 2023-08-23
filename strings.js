@@ -34,3 +34,10 @@ console.log(person1.concat(" is good")); // Appends " is good" to person1
   eg: "person1" value is still "Binod" after performing all the above string methods. if we
   want to change the value of person1 itself then do -> person1 = person1.toUpperCase();
 */
+
+/* 
+  Exercise:
+    1. Explore other string methods like includes, startsWith and endsWith.
+    2. Try to change the 4th character of the string "Sometone is watching" (use replace method).
+    3. Use slice method to extract the amount(1000) in string "He gave me 1000Rs as a gift".
+*/
