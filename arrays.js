@@ -24,3 +24,10 @@ console.log(arr);
 // 5. unshift -> adds a new element to the beginning of an array.
 arr.unshift(89);
 console.log(arr);
+
+/* 
+  Exercise:
+   *1. Explore other array methods like delete, sort, slice and splice.
+    2. Use splice method to remove and add elements from an array at the same time.
+    3. Use for loop to print the elements in the array.
+*/
