@@ -20,6 +20,16 @@ Last Iteration: i = 100, check i < 100 which is false, do not execute the loop, 
 
 // -------------------------------------------------------------------------------------------
 
+// 2. forEach loop -> Can be used to perform an operation on each element of an array.
+let nums = [45, 78, 43, 98, 55];
+nums.forEach((element) => {
+  console.log(element * element);
+});
+
+// The "element" is the data inside of array (45 for first iteration, 75 for second,...).
+
+// -------------------------------------------------------------------------------------------
+
 // 2. for in loop -> loops through the keys of an object.
 
 let obj = {
