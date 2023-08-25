@@ -12,3 +12,10 @@ arr2 = arr.filter((value) => {
   return value > 50;
 });
 console.log("\n", arr2);
+
+// Reduce -> Reduces an array to a single value.
+arr = [45, 56, 23, 54, 43, 77];
+arr2 = arr.reduce((val1, val2) => {
+  return val1 + val2;
+});
+console.log("\n", arr2);
